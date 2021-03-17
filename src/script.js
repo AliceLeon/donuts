@@ -145,7 +145,7 @@ const clock = new THREE.Clock()
 
 let rotate = []
 for (let i = 0; i < donutNumTotal; i++) {
-  rotate[i] = (Math.random() - .5)
+  rotate[i] = (Math.random() - .5) * 5
 }
 
 const tick = () => {
